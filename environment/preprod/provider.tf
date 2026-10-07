@@ -6,10 +6,10 @@ terraform {
     }
   }
     backend "azurerm" {
-    resource_group_name  = "rg-sujeet"
-    storage_account_name = "susu"
-    container_name       = "tfstate"
-    key                  = "prod.terraform.tfstate"
+    resource_group_name  = "rgsujeet"
+    storage_account_name = "stnew"
+    container_name       = "newcont"
+    key                  = "preprod.terraform.tfstate"
   }
 }
 provider "azurerm" {
